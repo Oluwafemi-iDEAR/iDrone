@@ -1,0 +1,203 @@
+body {
+  padding-top: 50px;
+  font-family: sans-serif; 
+  line-height: 1.8; 
+  font-style: normal; 
+  font-weight: 200; 
+  font-size: 16px;
+}
+.em-text{
+	color: #1caa98 !important;
+}
+
+/* -----------Nav bar------------ */
+@media all and (min-width: 992px) {
+  .navbar{ padding-top: 0; padding-bottom: 0; }
+  .navbar .has-megamenu{position:static!important;}
+  .navbar .megamenu{left:0; right:0; width:100%; padding:20px;  }
+  .navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
+    }
+
+    /* ============ desktop view ============ */
+    @media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu{ display: none; }
+    .navbar .nav-item:hover .nav-link{ color: #1caa98;  }
+    .navbar .nav-item:hover .dropdown-menu{ display: block; }
+    .navbar .nav-item:hover .dropdown-menu{ background-color: rgba(28, 179, 152, 0.85) !important; }
+    .navbar .nav-item:hover .dropdown-menu{ color:#fff !important; }
+    .navbar .nav-item .dropdown-menu{ margin-top:0; }
+    .navbar a:hover {color: #1caa98;}
+    }	
+
+    
+    /* ============ desktop view .end// ============ */
+
+
+.bg-light{
+	background: rgba(255, 255, 255, 0.35) !important;
+	transition: 0.85s ease;
+  }
+  .bg-light.scrolled{
+	background:rgba(2, 13, 41, 1) !important;
+	box-shadow: 0px 10px 10px 0px rgba(91, 91, 91, 0.45);
+  
+  }
+
+
+section{
+	padding: 40px 0 40px 0;
+}
+.jumbotron{
+/*	background: url(../img/site_showcase_bg.jpg) no-repeat top center;
+	background: url(../img/bac-2.png) no-repeat top center;*/
+	background-color:/*#1a5480;*/ #b7f3ef;
+	color: #000;
+	height: 520px;
+	overflow: none;
+	border:1px solid #1caa98;
+}
+.jumbotron h1{
+	margin-top: 60px;
+}
+.jumbotron p{
+	margin-bottom: 40px;
+}
+.jumbotron img.app-btn{
+	width: 40%;
+	margin-right: 30px;
+}
+.jumbotron img.showcase-img{
+	width: 75%;
+}
+ img.demo{
+	width: 100%;
+	padding: 3px;/*
+	border:1px solid #1caa98;*/
+}
+section#feature{
+	background: #fff;
+	color: #000;
+	padding: 40px;
+	overflow: auto;
+}
+section#feature ul li{
+	font-size: 22px;
+	list-style: none;
+	line-height: 2.0em;
+}
+
+section#title-bar{
+	padding: 0;
+	margin: 0;
+	height: 80px;
+	background:#1caa98;
+	color: #fff;
+}
+section#title-bar h1{
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.form-group{
+	padding: 20px 0 20px 0;
+}
+
+footer{
+	background-color:#1caa98;
+	color: #fff;
+	padding: 30px 0 20px 0;
+}
+footer li{
+	float: left;
+	padding: 10px;
+	list-style: none;
+}
+
+footer 
+	a:link {
+		color:#fff;
+		text-decoration: none;
+	}
+	a:visited {
+		color:#0000ff;
+	}
+	a:hover {
+		color:#fff;
+	}
+}
+
+
+footer p{
+	text-align: center;
+}
+
+/* MDEIA QUARIES */
+
+@media(max-width: 1200px){
+	
+	.jumbotron h1{
+		margin-top: 30px;
+		padding: 100px 0 30px 0;
+	}
+	.showcase-img {
+		padding: 60px 0 10px 0;
+	}
+}
+@media(max-width: 991px){
+
+	.jumbotron h1{
+		margin-top: 10px;
+		padding: 60px 0 10px 0;
+	}
+	.showcase-img {
+		padding: 60px 0 10px 0;
+	}
+}
+@media(min-width: 768px) and (max-width: 990px){
+		
+	.jumbotron img.app-btn{
+		width: 25%;
+	}
+
+	.jumbotron{
+		height: 400px !important;
+		background-size: 100% 100%;
+	}
+
+	.jumbotron h1{
+		margin-top: 10px;
+		padding: 60px 0 10px 0;
+	}
+	.showcase-img {
+		padding: 60px 0 10px 0;
+	}
+}
+@media(max-width: 768px){
+	.showcase-img {
+		display: none;
+	}
+	
+	.jumbotron{
+		height: 350px !important;
+		background-size: 100% 100%;
+		text-align: center;
+	}
+	.jumbotron img.app-btn{
+		width: 25%;
+	}
+	.jumbotron h1{
+		margin-top: 10px;
+		padding: 60px 0 10px 0;
+	}
+
+}
+@media(max-width: 500px){
+	
+	.jumbotron{
+		color: #fff;
+		height: 350px !important;
+		background-size: 100% 100%;
+		background-color: #1b222a;
+		text-align: center;
+	}
+}
